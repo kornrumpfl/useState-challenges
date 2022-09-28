@@ -6,7 +6,7 @@ function ActiveToggle() {
   return (
     <main>
       <div className={brokkoli==="Active"?"box box--active":"box"}/>
-      <button type="button" onClick={()=>setBrokkoli(brokkoli==="Active"?"notActive":"Active")}>{brokkoli==="Active"?"Activate":"Deactivate"}</button>
+      <button type="button" onClick={()=>setBrokkoli(brokkoli==="Active"?"notActive":"Active")}>{brokkoli==="Active"?"Is Active":"Is not Active"}</button>
     </main>
   );
 }
